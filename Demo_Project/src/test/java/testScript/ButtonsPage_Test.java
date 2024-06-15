@@ -23,7 +23,6 @@ public class ButtonsPage_Test extends BasePage {
 		elementsPage = new ElementsPageHelper();
 		buttonsPage = new ButtonsPageHelper();
 
-		
 		homePage.clickOnElementsTab();
 		ExtentListeners.test.log(Status.INFO, "clicked On Elements Tab");
 		
