@@ -21,7 +21,7 @@ public class ElementsPageHelper extends  BasePage{
 	
 	
 	public ElementsPageHelper() {
-		PageFactory.initElements(driver,this);
+		PageFactory.initElements((SearchContext) driver,this);
 	}
 	
 	

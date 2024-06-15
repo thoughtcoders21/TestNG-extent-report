@@ -3,11 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testing_test.Upload_Test">
+      <class name="testScript.ButtonsPage_Test">
         <methods>
-          <include name="clickonupload"/>
+          <include name="quitBrowser"/>
+          <include name="test1"/>
+          <include name="initializeBrowser"/>
         </methods>
-      </class> <!-- testing_test.Upload_Test -->
+      </class> <!-- testScript.ButtonsPage_Test -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
